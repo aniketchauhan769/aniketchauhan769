@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StitchCraft Manufacturing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <h1 class="logo">StitchCraft</h1>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#products">Products</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Premium Garment Manufacturing</p>
+        <h2>From Fabric to Fashion — End-to-End Production Partner</h2>
+        <p class="lead">We help brands scale with ethical sourcing, precision stitching, quality assurance, and on-time global delivery.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">Get a Quote</a>
+          <a class="btn btn-ghost" href="#products">View Capabilities</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Monthly Capacity</h3>
+        <ul>
+          <li><strong>120,000+</strong> Knit pieces</li>
+          <li><strong>80,000+</strong> Woven pieces</li>
+          <li><strong>45+</strong> Skilled production lines</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="services" class="section container">
+      <h3>Our Core Services</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>Cut & Sew</h4>
+          <p>Precision cutting and industrial stitching with strict tolerances for fit and consistency.</p>
+        </article>
+        <article class="card">
+          <h4>Sampling & Development</h4>
+          <p>From tech pack analysis to fit prototyping, we reduce revisions and speed up launches.</p>
+        </article>
+        <article class="card">
+          <h4>Finishing & Packing</h4>
+          <p>Ironing, tagging, poly-bagging, and carton packing tailored to retailer compliance standards.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="process" class="section section-alt">
+      <div class="container">
+        <h3>How We Work</h3>
+        <ol class="steps">
+          <li><span>1</span> Requirement Consultation</li>
+          <li><span>2</span> Material Sourcing & Sample Approval</li>
+          <li><span>3</span> Bulk Production & In-line QC</li>
+          <li><span>4</span> Final Inspection & Shipping</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="products" class="section container">
+      <h3>Product Categories</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>T-Shirts & Polos</h4>
+          <p>Combed cotton, blends, and performance fabrics for everyday and activewear collections.</p>
+        </article>
+        <article class="card">
+          <h4>Denim & Bottoms</h4>
+          <p>Classic and modern fits with washing, distressing, and finishing options.</p>
+        </article>
+        <article class="card">
+          <h4>Uniforms</h4>
+          <p>Corporate, hospitality, and industrial uniforms with embroidery and branding support.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-grid">
+        <div>
+          <h3>Let’s Build Your Next Collection</h3>
+          <p>Share your requirements and our production team will get back in 24 hours.</p>
+        </div>
+        <form class="contact-form" aria-label="Contact form">
+          <label>
+            Name
+            <input type="text" placeholder="Your name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="you@brand.com" required>
+          </label>
+          <label>
+            Order Volume
+            <select>
+              <option>Under 5,000 pcs</option>
+              <option>5,000 - 20,000 pcs</option>
+              <option>20,000+ pcs</option>
+            </select>
+          </label>
+          <button class="btn" type="submit">Send Inquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> StitchCraft Manufacturing. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
